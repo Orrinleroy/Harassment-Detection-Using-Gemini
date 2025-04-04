@@ -1,0 +1,50 @@
+[
+    {
+        "frame": "static/frames\\frame_0s.jpg",
+        "status": "Analyzed",
+        "gemini_response": "Based on the visual content and text within the image, here's the analysis:\n\n1.  **Harassment:** The image does not depict any targeted abuse, threats, or demeaning behavior towards any individual or group. It's a relatable meme about remembering past embarrassing moments.\n2.  **Violence:** There is no visual representation of violence, physical harm, or aggression in the image. It shows two pictures of cats.\n3.  **Suspicious Activity:** The image does not portray any actions that could be construed as illegal, dangerous, or suspicious.\n\n**Conclusion:** The image does not contain harassment, violence, or suspicious activity. It is a meme expressing a common feeling of delayed embarrassment.",
+        "suspicious": true
+    },
+    {
+        "frame": "static/frames\\frame_5s.jpg",
+        "status": "Analyzed",
+        "gemini_response": "Based on the analysis, the image appears to be completely black or blank.\n\nTherefore, it **does not contain** harassment, violence, or suspicious activity. There are no discernible objects, people, or actions depicted in the image content itself.",
+        "suspicious": true
+    },
+    {
+        "frame": "static/frames\\frame_10s.jpg",
+        "status": "Analyzed",
+        "gemini_response": "Based on the visual content, the image is too blurry and abstract to determine its subject matter clearly. It does not appear to depict any recognizable individuals, interactions, or specific actions.\n\nTherefore, I cannot identify any harassment, violence, or suspicious activity in this image.",
+        "suspicious": true
+    },
+    {
+        "frame": "static/frames\\frame_15s.jpg",
+        "status": "Analyzed",
+        "gemini_response": "Based on the analysis, the image is a solid black rectangle. It does not contain any discernible content depicting harassment, violence, or suspicious activity.",
+        "suspicious": true
+    },
+    {
+        "frame": "static/frames\\frame_20s.jpg",
+        "status": "Analyzed",
+        "gemini_response": "Based on the visual content, the image is completely black and does not depict any discernible objects, people, or actions. Therefore, it does not contain harassment, violence, or suspicious activity.",
+        "suspicious": true
+    },
+    {
+        "frame": "static/frames\\frame_25s.jpg",
+        "status": "Analyzed",
+        "gemini_response": "Based on the analysis, the image is completely black and does not contain any discernible content. Therefore, it does not depict harassment, violence, or suspicious activity.",
+        "suspicious": true
+    },
+    {
+        "frame": "static/frames\\frame_30s.jpg",
+        "status": "Analyzed",
+        "gemini_response": "Based on the analysis, the image contains:\n\n*   **Harassment:** No\n*   **Violence:** No\n*   **Suspicious Activity:** No\n\nThe image shows a close-up of a white, textured surface, possibly fabric or paper. It does not depict any people, actions, or objects related to the categories mentioned.",
+        "suspicious": true
+    },
+    {
+        "frame": "static/frames\\frame_35s.jpg",
+        "status": "Skipped",
+        "gemini_response": "",
+        "suspicious": false
+    }
+]

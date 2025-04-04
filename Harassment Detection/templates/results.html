@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Video Frame Analysis Results</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .frame {
+            margin-bottom: 30px;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 12px;
+        }
+        .frame img {
+            width: 320px;
+            height: auto;
+            display: block;
+            margin-bottom: 10px;
+        }
+        .alert {
+            color: red;
+            font-weight: bold;
+        }
+        .safe {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>🔍 Video Frame Analysis Results</h1>
+    {% for item in results %}
+    <div class="frame">
+        <img src="/{{ item.frame }}" alt="Frame">
+        <p><strong>Status:</strong> {{ item.status }}</p>
+        <p><strong>Gemini Response:</strong> {{ item.gemini_response }}</p>
+        {% if item.suspicious %}
+        <p class="alert">🚨 Suspicious activity detected!</p>
+        {% else %}
+        <p class="safe">✅ No suspicious activity.</p>
+        {% endif %}
+    </div>
+    {% endfor %}
+</body>
+</html>
